@@ -27,9 +27,15 @@ addBtn.textContent = 'add';
 controlList.appendChild(addBtn);
 
 
-// DIV to DISPLAY LIST ----
+// DIV to DISPLAY LIST ---- all items
 const displayList = document.createElement('div');
 displayList.setAttribute('id', 'display-list');
 bigDiv.appendChild(displayList);
+
+//create UL LIST
+const theList = document.createElement('ul');
+theList.setAttribute('id', 'the-list');
+displayList.appendChild(theList);
+
 
 export { addBtn }
