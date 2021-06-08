@@ -1,4 +1,4 @@
-import { addBtn } from "../init/ui.js"
+import { addBtn, inputField } from "../init/ui.js"
 import { addItem} from '../handlers/handlers.js'
 
 
