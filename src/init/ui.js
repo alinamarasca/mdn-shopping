@@ -34,6 +34,19 @@ addBtn.setAttribute('class', 'btn');
 addBtn.textContent = 'add';
 controlList.appendChild(addBtn);
 
+// SAVE btn
+const saveBtn = document.createElement('button');
+saveBtn.setAttribute('id', 'save-btn');
+saveBtn.setAttribute('class', 'btn');  
+saveBtn.textContent = 'save';
+controlList.appendChild(saveBtn);
+
+// SEND btn
+const sendBtn = document.createElement('button');
+sendBtn.setAttribute('id', 'send-btn');
+sendBtn.setAttribute('class', 'btn'); 
+sendBtn.textContent = 'send';
+controlList.appendChild(sendBtn);
 
 // DIV to DISPLAY LIST ---- all items
 const displayList = document.createElement('div');

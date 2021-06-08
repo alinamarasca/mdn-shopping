@@ -5,7 +5,7 @@ export const addItem = (event) => {
    //small div: <li> <btn> <btn>
    //div
    const itemDiv = document.createElement('div');
-   itemDiv.classList.add('item-div');
+   itemDiv.setAttribute('id', 'item-div');
    theList.appendChild(itemDiv);
 
 
@@ -13,7 +13,7 @@ export const addItem = (event) => {
    const listItem = document.createElement('li');
    listItem.innerText = inputField.value;
    listItem.classList.add('item');
-      itemDiv.appendChild(listItem);
+   itemDiv.appendChild(listItem);
    inputField.value = '';
    //delete
    const deleteBtn = document.createElement('button');
@@ -21,6 +21,7 @@ export const addItem = (event) => {
    deleteBtn.classList.add('delete-btn');
    itemDiv.appendChild(deleteBtn);
 }
+
 
 
 //ADD item to the list ------ https://youtu.be/Ttf3CEsEwMQ?t=974

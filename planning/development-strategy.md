@@ -28,10 +28,10 @@
 ## Should have 
 (things we don;t know yest how to do, but will figure out and re-organize the order)
 
-2. As **Sheyla** I want to send my list to my spouse so they do the shopping.
+2. As **Sheyla** I want to SEND my list to my spouse so they do the shopping.
 3. As **Sheyla** I want a trusted person to edit the list.
-4. As **list-user** I want to add comment to the item in the list.
-5. As **old-school-shopper** I want to save my list to have it om paper.
+4. As **list-user** I want to ADD COMMENT to the item in the list.
+5. As **old-school-shopper** I want to SAVE my list to have it om paper.
 6. As **busy person** I want to have a timer to be on schedule.
 7.  As **busy person** I want to to know how much I spend for shopping per month.
 8.  As **list-user** I want to ask another person to buy what I didn't buy.
@@ -39,7 +39,7 @@
 10. As **list-user** I want to set quantity to my items.
 11. As **shopper** I want to compare prices in different shops.
 12. As **shopper** I want to choose market close to my house.
-13. As **busy person** I want to to save my list so do I don't need to make it again.
+13. As **busy person** I want to to SAVEmy list so do I don't need to make it again.
 14. As **person who saved the list**  I want to edit the list so I can reuse it for next shopping.
 15. favorites?
 16. 
