@@ -1,4 +1,12 @@
 // import "../listeners/listener.js"
+// title
+const header = document.createElement('header')
+document.body.appendChild(header);
+const welcome = document.createElement('p');
+welcome.setAttribute('id', 'welcome')
+header.appendChild(welcome);
+welcome.textContent = 'Welcome! Here you can create your shopping list!'
+
 
 //DIV for EVERYTHING ---- bigDiv
 const bigDiv = document.createElement('div');

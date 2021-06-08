@@ -12,7 +12,7 @@ export const addItem = (event) => {
    listItem.innerText = inputField.value;
    listItem.classList.add('item');
    itemDiv.appendChild(listItem);
-   console.log('i work')
+   inputField.value = '';
 }
 
 
