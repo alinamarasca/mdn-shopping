@@ -4,7 +4,7 @@
 3. As **list-maker** I want to delete items from my list.
 4. As **list-maker** I want to check item as 'bought'.
 5. As **list-maker** I want to see my list.
-6. As **developer** I want to create sorting options.
+
 
 
 ## Should have
