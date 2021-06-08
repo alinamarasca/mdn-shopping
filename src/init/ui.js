@@ -38,4 +38,4 @@ theList.setAttribute('id', 'the-list');
 displayList.appendChild(theList);
 
 
-export { addBtn }
+export { addBtn, inputField, theList }
