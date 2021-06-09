@@ -34,6 +34,13 @@ addBtn.setAttribute('class', 'btn');
 addBtn.textContent = 'add';
 controlList.appendChild(addBtn);
 
+// SEND btn
+const sendBtn = document.createElement('button');
+sendBtn.setAttribute('id', 'send-btn');
+sendBtn.setAttribute('class', 'btn'); 
+sendBtn.textContent = 'send';
+controlList.appendChild(sendBtn);
+
 // SAVE btn
 const saveBtn = document.createElement('button');
 saveBtn.setAttribute('id', 'save-btn');
@@ -41,12 +48,12 @@ saveBtn.setAttribute('class', 'btn');
 saveBtn.textContent = 'save';
 controlList.appendChild(saveBtn);
 
-// SEND btn
-const sendBtn = document.createElement('button');
-sendBtn.setAttribute('id', 'send-btn');
-sendBtn.setAttribute('class', 'btn'); 
-sendBtn.textContent = 'send';
-controlList.appendChild(sendBtn);
+// CLEAN btn
+const cleanBtn = document.createElement('button');
+cleanBtn.setAttribute('id', 'clean-btn');
+cleanBtn.setAttribute('class', 'btn'); 
+cleanBtn.textContent = 'clean';
+controlList.appendChild(cleanBtn);
 
 // DIV to DISPLAY LIST ---- all items
 const displayList = document.createElement('div');
@@ -59,4 +66,4 @@ theList.setAttribute('id', 'the-list');
 displayList.appendChild(theList);
 
 
-export { addBtn, inputField, theList }
+export { addBtn, sendBtn, saveBtn, cleanBtn, inputField, theList }
