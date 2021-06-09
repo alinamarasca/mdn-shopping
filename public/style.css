@@ -62,6 +62,9 @@ ul{
     padding:0.5rem;
     margin: 1rem;
 }
+.fa-trash{
+    pointer-events: none;
+}
 .btn, #input-field {
     padding:0.5rem;
     margin: 1rem;
