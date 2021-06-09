@@ -2,6 +2,7 @@ import {inputField, theList} from '../init/ui.js'
 
 
 // upper buttons control
+
 export const buttonControl = (event) => {
 const text = event.target.form.text.value; // input field
 const action = event.target.value; // add or remove button
@@ -23,19 +24,28 @@ const action = event.target.value; // add or remove button
    const deleteBtn = document.createElement('button');
    deleteBtn.innerHTML = '<i class = "fas fa-trash"></i>';
    deleteBtn.classList.add('delete-btn');
+   deleteBtn.setAttribute('value', 'delete');
    itemDiv.appendChild(deleteBtn);
    deleteBtn.addEventListener('click', deleteItem);
    }
-   if (action === 'send'){
-      // event.preventDefault();
+   //send
+   if(action === 'send'){
       console.log('I send');
+   }
+   //save
+   if(action === 'save'){
+      console.log('I save');
+   }
+   //clean
+   if(action === 'clean'){
+      console.log('I clean');
    }
 }
 
 const deleteItem = (e) => {
    const item = e.target;
    //delete
-   if(item.classList[0] === 'delete-btn'){
+   if(item.value === 'delete'){
       const toRemove = item.parentElement;
       toRemove.remove();
       console.log('remove works')

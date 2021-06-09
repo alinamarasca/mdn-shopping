@@ -1,7 +1,12 @@
-import { addBtn} from "../init/ui.js"
+import { addBtn, sendBtn, saveBtn, cleanBtn} from "../init/ui.js"
 import {buttonControl} from '../handlers/handlers.js'
 
 
 
 addBtn.addEventListener('click', buttonControl)
-// deleteBtn.addEventListener('click', deleteItem);
+
+sendBtn.addEventListener('click', buttonControl)
+
+saveBtn.addEventListener('click', buttonControl)
+
+cleanBtn.addEventListener('click', buttonControl)
