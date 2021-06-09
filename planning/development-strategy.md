@@ -25,8 +25,6 @@
     - [ ] css: design
     - [ ] accessibility
   
-7. 5. As **list-maker** I want to clean my list.
-- [ ] clean <button>
 
 ## Should have 
 (things we don;t know yest how to do, but will figure out and re-organize the order)
@@ -45,6 +43,10 @@
 13. As **busy person** I want to to save my list so do I don't need to make it again.
 14. As **person who saved the list**  I want to edit the list so I can reuse it for next shopping.
 15. favorites?
-16. 
+16. As **list-maker** I want to clean my list. (**added in process**)
+- [ ] clean <button>
+  
+17. As **list-maker** I want to sort my list. (**added in process**)
+- [ ] sort not checked first
     
 ## Might have
