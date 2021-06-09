@@ -24,6 +24,9 @@
 6. As **any front end user** I want it to be nice and easy to use.
     - [ ] css: design
     - [ ] accessibility
+  
+7. 5. As **list-maker** I want to clean my list.
+- [ ] clean <button>
 
 ## Should have 
 (things we don;t know yest how to do, but will figure out and re-organize the order)
