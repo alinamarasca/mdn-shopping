@@ -48,6 +48,7 @@ controlList.appendChild(sendBtn);
 const saveBtn = document.createElement('button');
 saveBtn.setAttribute('id', 'save-btn');
 saveBtn.setAttribute('class', 'btn');  
+saveBtn.setAttribute('value', 'save'); 
 saveBtn.textContent = 'save';
 controlList.appendChild(saveBtn);
 
@@ -55,6 +56,7 @@ controlList.appendChild(saveBtn);
 const cleanBtn = document.createElement('button');
 cleanBtn.setAttribute('id', 'clean-btn');
 cleanBtn.setAttribute('class', 'btn'); 
+cleanBtn.setAttribute('value', 'clean'); 
 cleanBtn.textContent = 'clean';
 controlList.appendChild(cleanBtn);
 
