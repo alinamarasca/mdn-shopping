@@ -15,7 +15,7 @@ document.body.appendChild(bigDiv);
 console.log(bigDiv);
 
 // DIV for LIST CONTROL ---- input & buttons
-const controlList = document.createElement('DIV');
+const controlList = document.createElement('FORM');//was DIV
 controlList.setAttribute('id', 'control-list');
 // console.log(inputDiv);
 bigDiv.appendChild(controlList);
@@ -23,6 +23,7 @@ bigDiv.appendChild(controlList);
 // INPUT FIELD ---- inputField type = text id = input-field
 const inputField = document.createElement('input');
 inputField.setAttribute('type', "text");
+inputField.setAttribute('name', "text");//
 inputField.setAttribute('id', "input-field");
 // console.log(inputField);
 controlList.appendChild(inputField);
@@ -31,6 +32,7 @@ controlList.appendChild(inputField);
 const addBtn = document.createElement('button');
 addBtn.setAttribute('id', 'add-btn');
 addBtn.setAttribute('class', 'btn');  
+addBtn.setAttribute('value', 'add'); //
 addBtn.textContent = 'add';
 controlList.appendChild(addBtn);
 
@@ -38,6 +40,7 @@ controlList.appendChild(addBtn);
 const sendBtn = document.createElement('button');
 sendBtn.setAttribute('id', 'send-btn');
 sendBtn.setAttribute('class', 'btn'); 
+sendBtn.setAttribute('value', 'send'); //
 sendBtn.textContent = 'send';
 controlList.appendChild(sendBtn);
 
