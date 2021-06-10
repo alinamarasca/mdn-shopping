@@ -1,7 +1,8 @@
 import { addBtn, sendBtn, saveBtn, cleanBtn} from "../init/ui.js"
 import {buttonControl} from '../handlers/handlers.js'
-// import { deleteBtn } from '../data.js'
+// import { toLocalStorage } from '../data.js'
 
+// document.addEventListener('DOMContentLoaded', toLocalStorage);
 
 addBtn.addEventListener('click', buttonControl)
 

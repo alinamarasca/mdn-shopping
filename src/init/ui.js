@@ -31,7 +31,7 @@ controlList.appendChild(inputField);
 // ADD btn --addBtn id = add-btn class= btn
 const addBtn = document.createElement('button');
 addBtn.setAttribute('id', 'add-btn');
-addBtn.setAttribute('class', 'btn');  
+addBtn.setAttribute('class', 'btn'); 
 addBtn.setAttribute('value', 'add'); //
 addBtn.textContent = 'add';
 controlList.appendChild(addBtn);
@@ -39,7 +39,7 @@ controlList.appendChild(addBtn);
 // SEND btn
 const sendBtn = document.createElement('button');
 sendBtn.setAttribute('id', 'send-btn');
-sendBtn.setAttribute('class', 'btn', 'btn-passive'); 
+sendBtn.setAttribute('class', 'btn'); 
 sendBtn.setAttribute('value', 'send'); //
 sendBtn.textContent = 'send';
 controlList.appendChild(sendBtn);
