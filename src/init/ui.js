@@ -39,7 +39,7 @@ controlList.appendChild(addBtn);
 // SEND btn
 const sendBtn = document.createElement('button');
 sendBtn.setAttribute('id', 'send-btn');
-sendBtn.setAttribute('class', 'btn'); 
+sendBtn.setAttribute('class', 'btn', 'btn-passive'); 
 sendBtn.setAttribute('value', 'send'); //
 sendBtn.textContent = 'send';
 controlList.appendChild(sendBtn);

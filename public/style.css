@@ -1,3 +1,5 @@
+/* General */
+
 *{
     margin:0;
     padding:0;
@@ -58,6 +60,8 @@ ul{
     align-content:center;
     justify-content: center;
 }
+
+/* Buttons */
 .delete-btn{
     padding:0.5rem;
     margin: 1rem;
@@ -69,7 +73,13 @@ ul{
     padding:0.5rem;
     margin: 1rem;
 }
-
 .btn{
     text-transform: uppercase;
+    background-color: rgb(11, 224, 160);
 }
+
+.send-active{
+background-color: red;
+
+}
+
