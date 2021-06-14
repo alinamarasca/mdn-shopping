@@ -26,7 +26,7 @@ import {deleteItem, checkItem} from '../src/handlers/handlers.js'
 export const createListItem = () => {
     //create div
  const itemDiv = document.createElement('div');
- itemDiv.setAttribute('id', 'item-div');
+ itemDiv.setAttribute('id', 'each-item-div');
  theList.appendChild(itemDiv);
  //create li
  const listItem = document.createElement('li');

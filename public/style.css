@@ -52,7 +52,7 @@ ul{
     list-style: none;
     }
 
-#item-div{
+#each-item-div{
     background-color: rgba(255,255,255,0.3);
     display: flex;
     flex-direction: row;
@@ -60,20 +60,35 @@ ul{
     color:rgb(36, 10, 70);
     align-items: baseline;
     font-size: 1.5rem;
-    align-content:center;
-    justify-content: center;
+    /* align-content: space-between;
+    justify-content:space-between; */
     transition: all 1s ease;
+    
 }
+
+#each-item-div li{
+    margin: 0.2rem 2rem;
+    flex: 1;
+}
+
 /*INNER buttons*/
-.inner-btn {
+/* both */
+.inner-btn { 
     padding:0.5rem;
     margin: 1rem;
     color: purple;
+    border: none;
 }
+/* delete */
 .delete-btn{
     background-color: rgb(255, 255, 255);
+    align-self: flex-end;
+}
+.fa-trash{
+    pointer-events: none;
 }
 
+/* check */
 .check-btn {
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
@@ -85,15 +100,12 @@ ul{
 .check-btn-active li{
 opacity: 0.4;
 }
-/* Buttons */
 
-
-.fa-trash{
-    pointer-events: none;
-}
 .fa-check{
     pointer-events: none;
 }
+/* OUTER Buttons */
+
 
 .btn, #input-field {
     padding:0.5rem;
