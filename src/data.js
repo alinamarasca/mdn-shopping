@@ -69,3 +69,16 @@ export const sendUrl = () => {
     }, 1000);
     
     }
+
+
+// CLEAN ALL button
+// export const cleanAll = () => {
+// console.log('very clean')
+// const itemsToClean = document.querySelectorAll('li');
+// theList.remove(itemsToClean); //theList <ul> parent of li
+// }
+
+export const cleanAll = () => {
+    console.log('very clean')
+    theList.innerHTML = '';
+    }

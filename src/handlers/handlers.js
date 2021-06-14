@@ -1,4 +1,5 @@
-import { createListItem, sendUrl } from '../data.js'
+import { cleanAll, createListItem, sendUrl } from '../data.js'
+import { cleanBtn } from '../init/ui.js';
 
 
 // upper buttons control
@@ -23,6 +24,7 @@ const action = event.target.value; // add or remove button
    }
    //clean
    if(action === 'clean'){
+      cleanAll();
       console.log('I clean');
    }
 }
@@ -50,5 +52,6 @@ export const checkItem = (e) => {
       
    }
 }
+
 
 //ADD item to the list ------ https://youtu.be/Ttf3CEsEwMQ?t=974

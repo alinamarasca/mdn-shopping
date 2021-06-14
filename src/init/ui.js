@@ -60,6 +60,14 @@ cleanBtn.setAttribute('value', 'clean');
 cleanBtn.textContent = 'clean';
 controlList.appendChild(cleanBtn);
 
+// CHECKED bottom
+const checkedToBottom = document.createElement('button');
+checkedToBottom.setAttribute('id', 'checked-bottom-btn');
+checkedToBottom.setAttribute('class', 'btn'); 
+checkedToBottom.setAttribute('value', 'checked-bottom'); 
+checkedToBottom.textContent = 'checked to bottom';
+controlList.appendChild(checkedToBottom);
+
 // DIV to DISPLAY LIST ---- all items
 const displayList = document.createElement('div');
 displayList.setAttribute('id', 'display-list');

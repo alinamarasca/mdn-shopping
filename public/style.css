@@ -35,7 +35,7 @@ p{
     margin-top: 5%;
    
     /* margin:auto; */
-    width: 60vh;
+    width: fit-content;
     /* height: 80vh; */
     }
 
