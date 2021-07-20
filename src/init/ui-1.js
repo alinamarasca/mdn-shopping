@@ -25,7 +25,7 @@ const inputField = document.createElement('input');
 inputField.setAttribute('type', "text");
 inputField.setAttribute('name', "text");//
 inputField.setAttribute('id', "input-field");
-// console.log(inputField);
+console.log(inputField);
 controlList.appendChild(inputField);
 
 // ADD btn --addBtn id = add-btn class= btn

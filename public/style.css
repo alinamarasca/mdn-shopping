@@ -39,20 +39,20 @@ p{
     /* height: 80vh; */
     }
 
-#control-list{
+form{
     background-color: rgba(255,255,255,0.3);
     display: flex;
     flex-direction: row;
     align-content:center;
     justify-content: center;
     margin-bottom: 0.4rem;
-
 }
+
 ul{
     list-style: none;
     }
 
-#each-item-div{
+.item{
     background-color: rgba(255,255,255,0.3);
     display: flex;
     flex-direction: row;
@@ -66,7 +66,7 @@ ul{
     
 }
 
-#each-item-div li{
+.item{
     margin: 0.2rem 2rem;
     flex: 1;
 }
@@ -93,11 +93,20 @@ ul{
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
 }
-.check-btn-active {
+.check-btn:hover{
+    box-shadow: inset 0px 0px 0px 2px rgb(11, 224, 160);;
+    box-sizing: border-box;
+}
+
+.checked{
+    background-color: royalblue;
+}
+
+.bought {
     text-decoration: line-through;
     background-color: rgb(11, 224, 160);
 }
-.check-btn-active li{
+.bought{
 opacity: 0.4;
 }
 
@@ -106,18 +115,18 @@ opacity: 0.4;
 }
 /* OUTER Buttons */
 
-
 .btn, #input-field {
     padding:0.5rem;
     margin: 1rem;
 }
+
 .btn{
     text-transform: uppercase;
     background-color: rgb(11, 224, 160);
+    cursor: pointer;
 }
 
-.send-active{
+/* .send-active{
 background-color: red;
-
-}
+} */
 
