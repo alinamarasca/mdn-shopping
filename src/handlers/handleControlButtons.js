@@ -1,13 +1,11 @@
-import { state } from "../data.js";
 import { handleAddItem } from "./handleAddItem.js";
-import { handleDeleteItem } from "./handleDeleteItem.js";
+import { handleCopyUrl } from "./handleCopyUrl.js";
 import { reRenderList } from "./handleReRenderList.js"
-// import { ShoppingListSection } from "../components/shoppingListSection.js";
+
 
 export const buttonControl = (event) => {
 
 const action = event.target.value;
-
 // const needReRender = event.target;
 // if (needReRender.value === 'delete' && reRender.value === 'check' ){
 //    reRenderList();
@@ -29,7 +27,7 @@ const action = event.target.value;
    }
    
    if(action === 'copy-url'){
-      console.log('I copy');
+      handleCopyUrl();
    }
 
 }

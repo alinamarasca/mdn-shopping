@@ -98,6 +98,10 @@ ul{
     box-sizing: border-box;
 }
 
+.checked{
+    background-color: royalblue;
+}
+
 .bought {
     text-decoration: line-through;
     background-color: rgb(11, 224, 160);

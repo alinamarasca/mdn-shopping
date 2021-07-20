@@ -1,6 +1,6 @@
 import { DeleteButton } from "./deleteButton.js";
 import { CheckButton } from "./checkButton.js";
-import { buttonControl } from "../handlers/handleControlButtons.js";
+// import { buttonControl } from "../handlers/handleControlButtons.js";
 
 
 export const ShoppingListSection = (data) => {
@@ -16,7 +16,7 @@ export const ShoppingListSection = (data) => {
      div.dataset.index = data.indexOf(item);
      div.className = "item-div";
      li.appendChild(div);
-     
+
      div.innerText = data[data.indexOf(item)].item;
      if (data[data.indexOf(item)].bought){
           li.classList.add("bought");
@@ -24,7 +24,6 @@ export const ShoppingListSection = (data) => {
      div.appendChild(CheckButton());
      div.appendChild(DeleteButton());
      ul.appendChild(li);
-     
      })
      
      return ul;
