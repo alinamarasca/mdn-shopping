@@ -1,4 +1,4 @@
-import { buttonControl } from "../handlers/handleControlPanel.js";
+import { buttonControl } from "../handlers/handleControlButtons.js";
 import { AddButton } from "./addButton.js";
 import { CopyUrl } from "./copyUrl.js";
 import { SaveList } from "./saveList.js"

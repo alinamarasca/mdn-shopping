@@ -1,7 +1,7 @@
 import { state } from "../data.js";
 import { ControlPanel } from "../components/controlPanel.js";
 import { ShoppingListSection } from "../components/shoppingListSection.js";
-import { buttonControl } from "../handlers/handleControlPanel.js";
+import { buttonControl } from "../handlers/handleControlButtons.js";
 
 const body = document.querySelector("body");
 
@@ -17,4 +17,3 @@ const listSection = document.createElement('section');
 listSection.id = "shopping-list";
 listSection.appendChild(ShoppingListSection(state.items))
 body.appendChild(listSection);
-// listSection.addEventListener("click", buttonControl);//

@@ -98,11 +98,11 @@ ul{
     box-sizing: border-box;
 }
 
-.check-btn-active {
+.bought {
     text-decoration: line-through;
     background-color: rgb(11, 224, 160);
 }
-.check-btn-active li{
+.bought{
 opacity: 0.4;
 }
 

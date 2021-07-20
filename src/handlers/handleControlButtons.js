@@ -8,6 +8,11 @@ export const buttonControl = (event) => {
 
 const action = event.target.value;
 
+// const needReRender = event.target;
+// if (needReRender.value === 'delete' && reRender.value === 'check' ){
+//    reRenderList();
+// }
+
    event.preventDefault();
 
    if(action === 'add'){
@@ -27,13 +32,7 @@ const action = event.target.value;
       console.log('I copy');
    }
 
-   if(action === 'delete'){
-      console.log(' delete');
-      // handleDeleteItem();
-      reRenderList();
-   }
-
-   }
+}
 
 
 // //DELETE item 

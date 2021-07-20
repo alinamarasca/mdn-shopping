@@ -1,4 +1,3 @@
-import { buttonControl } from "../handlers/handleControlPanel.js";
 import { handleDeleteItem } from "../handlers/handleDeleteItem.js"
 
 export const DeleteButton = () => {
@@ -8,7 +7,5 @@ export const DeleteButton = () => {
     button.classList.add('inner-btn');
     button.setAttribute('value', 'delete');
     button.addEventListener('click', handleDeleteItem);
-    button.addEventListener('click', buttonControl);
-    
     return button;
 };
